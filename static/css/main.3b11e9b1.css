@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{grid-gap:10px;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));margin:20px 15px}.contact{background-color:#eee;padding:10px}.contact img{border-radius:15px;margin-bottom:15px;width:100%}.contact .info span:first-child{display:block;font-size:18px;font-weight:700}
+/*# sourceMappingURL=main.3b11e9b1.css.map*/
