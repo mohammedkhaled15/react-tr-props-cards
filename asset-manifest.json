@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react-tr-props-cards/static/css/main.3b11e9b1.css",
-    "main.js": "/react-tr-props-cards/static/js/main.2710534d.js",
+    "main.css": "/react-tr-props-cards/static/css/main.b0683799.css",
+    "main.js": "/react-tr-props-cards/static/js/main.575f8573.js",
+    "static/media/avatar-05.png": "/react-tr-props-cards/static/media/avatar-05.623ad256d00afefa95b1.png",
+    "static/media/avatar-06.png": "/react-tr-props-cards/static/media/avatar-06.6fb74fa5aafaa2d3651b.png",
     "static/media/avatar-04.png": "/react-tr-props-cards/static/media/avatar-04.5cde1a1b7dffd9b9f83a.png",
     "static/media/avatar-03.png": "/react-tr-props-cards/static/media/avatar-03.9bcc1e0b675edf836ed9.png",
     "static/media/avatar-02.png": "/react-tr-props-cards/static/media/avatar-02.cc9c983a8f12aab07b5f.png",
     "static/media/avatar-01.png": "/react-tr-props-cards/static/media/avatar-01.0e35f1b657d699ca4e25.png",
     "index.html": "/react-tr-props-cards/index.html",
-    "main.3b11e9b1.css.map": "/react-tr-props-cards/static/css/main.3b11e9b1.css.map",
-    "main.2710534d.js.map": "/react-tr-props-cards/static/js/main.2710534d.js.map"
+    "main.b0683799.css.map": "/react-tr-props-cards/static/css/main.b0683799.css.map",
+    "main.575f8573.js.map": "/react-tr-props-cards/static/js/main.575f8573.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b11e9b1.css",
-    "static/js/main.2710534d.js"
+    "static/css/main.b0683799.css",
+    "static/js/main.575f8573.js"
   ]
 }
