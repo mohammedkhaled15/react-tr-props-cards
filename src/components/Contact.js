@@ -1,11 +1,11 @@
 import React from "react";
-export default function Contact(props){
+export default function Contact({img,name,tel}){
     return (
         <div className="contact">
-            <img src={props.img} alt="card-profile"/>
+            <img src={img} alt="card-profile"/>
             <div className="info">
-                <span>{props.name}</span>
-                <span>{props.tel}</span>
+                <span>{name}</span>
+                <span>{tel}</span>
             </div>
         </div>
     )
