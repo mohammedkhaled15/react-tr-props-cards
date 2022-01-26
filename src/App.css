@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
+    gap: 10px;
+    margin: 20px 15px;
+}
+.contact{
+    padding: 10px;
+    background-color: #eee;
+}
+.contact img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.contact .info span:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
