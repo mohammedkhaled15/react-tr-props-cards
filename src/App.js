@@ -1,24 +1,35 @@
 import React from "react";
 import "./App.css"
+import allComponents from "./javaScriptData"
 import Contact from "./components/Contact"
-import avatar01 from "./images/avatar-01.png";
-import avatar02 from "./images/avatar-02.png";
-import avatar03 from "./images/avatar-03.png";
-import avatar04 from "./images/avatar-04.png";
+
 
 
 export default function App(){
+    const components = allComponents.map(compo =>{
+        return <Contact 
+        img={compo.img} 
+        name = {compo.name} 
+        tel={compo.tel}
+        slots={compo.slots}
+        />
+    })
     return(
         <div className="container">
-            <Contact
+            {components}
+        </div>
+    )
+}
+
+/* <Contact
             img={avatar01}
-            name="El wensh"
+            name= "el wensh"
             tel="012345799"
             />
             <Contact
             img={avatar02}
             name="El shenawy"
-            tel="987654321"
+            tel={987654321}
             />
             <Contact
             img={avatar03}
@@ -29,7 +40,4 @@ export default function App(){
             img={avatar04}
             name="neny"
             tel="01234-585799"
-            />
-        </div>
-    )
-}
+            /> */

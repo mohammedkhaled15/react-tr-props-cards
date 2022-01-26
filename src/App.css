@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 .container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     margin: 20px 15px;
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
 .contact{
+    flex: 0 0 auto;
     padding: 10px;
     background-color: #eee;
+    position: relative;
 }
 .contact img{
     width: 100%;
@@ -22,4 +26,13 @@
     font-size: 18px;
     font-weight: bold;
     display: block;
+}
+.badge{
+    position: absolute;
+    background-color: #ccc;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 2px;
+    top: 20px;
+    left: 20px;
 }
