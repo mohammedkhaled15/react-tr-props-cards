@@ -1,43 +1,20 @@
 import React from "react";
 import "./App.css"
-import allComponents from "./javaScriptData"
-import Contact from "./components/Contact"
+import items from "./javaScriptData"
+import Contact from "./components/Card"
 
 
 
 export default function App(){
-    const components = allComponents.map(compo =>{
+    const cards = items.map(item =>{
         return <Contact 
-        img={compo.img} 
-        name = {compo.name} 
-        tel={compo.tel}
-        slots={compo.slots}
+        key={item.id}
+        {...item}
         />
     })
     return(
         <div className="container">
-            {components}
+            {cards}
         </div>
     )
 }
-
-/* <Contact
-            img={avatar01}
-            name= "el wensh"
-            tel="012345799"
-            />
-            <Contact
-            img={avatar02}
-            name="El shenawy"
-            tel={987654321}
-            />
-            <Contact
-            img={avatar03}
-            name="hegazy"
-            tel="0125254569"
-            />
-            <Contact
-            img={avatar04}
-            name="neny"
-            tel="01234-585799"
-            /> */
